@@ -1,0 +1,57 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+.mainMenuItem {
+    margin: 1rem;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-right: 10px;
+    transition: color 0.5s ease, padding-bottom 0.5s ease;
+}
+.mainMenuItem::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width 0.5s ease, background-color 0.5s ease;
+}
+.mainMenuItem:hover::after {
+    width: 100%;
+    background: #feecd1;
+}
+.mainMenuBtn {
+    background: #feecd1;
+    color: #2a2929;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
+.mainMenuImg {
+    object-fit: cover;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0.5rem;
+}
