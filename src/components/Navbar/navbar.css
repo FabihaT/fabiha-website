@@ -1,7 +1,7 @@
 .navbar {
+    background-color: #2a2929;
     height: 5rem;
     width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -23,7 +23,6 @@
     text-decoration: none;
     display: inline-block;
     padding-bottom: 3px;
-    margin-right: 10px;
     transition: color 0.5s ease, padding-bottom 0.5s ease;
 }
 .mainMenuItem::after {
