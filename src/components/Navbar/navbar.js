@@ -15,7 +15,9 @@ const Navbar = () => {
                 <Link className="mainMenuItem">Contact</Link>
             </div>
             <button className="mainMenuBtn">
-                <img src={gitImg} alt="github" className="mainMenuImg"/> My Github
+                <a href="https://github.com/FabihaT" target="_blank" rel="noopener noreferrer" className="mainMenuBtn">
+                    <img src={gitImg} alt="github" className="mainMenuImg"/> My Github
+                </a>
             </button>
         </nav>
     )

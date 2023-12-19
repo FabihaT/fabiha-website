@@ -1,0 +1,90 @@
+#work {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+.workTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.workDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 90%;
+    padding: 1rem 0;
+}
+.workCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100vw;
+    max-width: 90rem;
+}
+.workImg {
+    justify-self: center;
+    width: 400px; 
+    height: 400px;
+    object-fit: cover;
+    object-position: left top;
+    border-radius: 0.5rem;
+}
+.descCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Start fully transparent */
+    pointer-events: none; 
+    box-sizing: border-box;
+    padding: 1rem 2.5rem;
+}
+.workCard {
+    position: relative; 
+}
+.workCard:hover .descCard {
+    opacity: 1; /* Fully visible */
+    background-color: rgba(41, 41, 41, 0.8); 
+    border: 2px solid #feecd1;
+    border-radius: 0.5rem;
+    pointer-events: auto;
+}
+.descButton {
+    background: #feecd1;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: #2a2929;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width:600px) {
+    .workDesc p {
+        font-size: 2.5vw;
+    }
+    .workTitle h2 {
+        font-size: 5vw;
+    }
+}
