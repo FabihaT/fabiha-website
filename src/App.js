@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/navbar";
 import Header from "./components/Header/header";
 import About from "./components/About/about";
 import Portfolio from "./components/Portfolio/portfolio";
+import Education from "./components/Education/education";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <About />
       <Portfolio />
+      <Education />
     </div>
   );
 }
