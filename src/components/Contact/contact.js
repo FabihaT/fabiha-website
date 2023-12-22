@@ -63,7 +63,7 @@ const Contact = () => {
                         <span className="link-label">Outlook</span>
                     </div>
                     <div className="link-container">
-                        <a href="https://www.linkedin.com/in/fabiha-neera-326344141/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/fabiha-tuheen-326344141/" target="_blank" rel="noopener noreferrer">
                             <img src={LinkedIn} alt='LinkedIn' className='link' />
                         </a>
                         <span className="link-label">LinkedIn</span>
