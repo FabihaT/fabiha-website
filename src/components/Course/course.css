@@ -31,8 +31,8 @@
     margin: 5px;
     cursor: pointer;
     border: 1px solid #feecd1;
+    border-radius: 0.5rem;
     background-color: transparent;
-    transition: background-color 0.3s ease;
 }
 .active-tabs {
     background-color: #feecd1;
@@ -45,8 +45,10 @@
     bottom: -3px;
     left: 0;
     right: 0;
-    height: 3px;
+    height: 30px;
     background-color: #997007;
+    border-radius: 0.5rem;
+    z-index: -1;
 }
 .content-tabs {
     display: flex;

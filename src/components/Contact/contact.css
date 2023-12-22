@@ -29,7 +29,7 @@
     width: 90vw;
     max-width: 80rem;
 }
-.name, .email, .msg {
+.name, .subject, .msg {
     font-size: medium;
     width: 100%;
     max-width: 50rem;
@@ -52,11 +52,40 @@
     display: flex;
     flex-wrap: wrap;
     margin: 2rem;
-    cursor: pointer;
 }
 .link {
     object-fit: cover;
     height: 3rem;
     width: 3rem;
     margin: 0 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+    transition: transform 0.3s ease;
+}
+.link-container:hover {
+    transform: scale(1.1); 
+}
+.link-label {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 1rem;
+    color: #feecd1;
+    visibility: hidden;
+    margin-top: 5px;
+}
+.link-container:hover .link-label {
+    opacity: 1;
+    visibility: visible;
+}
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    transition: transform 0.3s ease;
 }
