@@ -8,7 +8,7 @@ import DataSci from "../../assets/dataanalytic.png";
 const About = () => {
     return (
         <section id="skills">
-            <h2 className="skillTitle">About Me</h2>
+            <h2 className="skillTitle">Introduction</h2>
             <span className="skillDesc">
                 I am a 3rd year student at the University of Calgary majoring in Software Engineering. I was intrigued  
                 in app and web design and development since high school and I love to continuously improve my technical skills through team 

@@ -6,7 +6,8 @@
     padding-right: calc(10% - 30px);
 }
 .title {
-    padding: 0px 0px 20px 30px;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
     font-size: 3rem;
     font-weight: 300;
 }

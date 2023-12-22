@@ -15,7 +15,7 @@ const Education = () => {
                             <p>This is a 4 year program with the option of an additional
                                 internship year. As a student, we are exposed to the theoretical
                                 foundation and gain specialized knowledge to develop, install, 
-                                validate, and maintain software systems. The detailed courses taken
+                                validate, and maintain software systems. The relevant courses taken
                                 and planned to take can be viewed below.
                             </p>
                         </div>

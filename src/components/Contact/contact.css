@@ -12,7 +12,8 @@
 }
 .contactTitle {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
 }
 .contactDesc {
     font-weight: 300;
@@ -50,6 +51,8 @@
 .links {
     display: flex;
     flex-wrap: wrap;
+    margin: 2rem;
+    cursor: pointer;
 }
 .link {
     object-fit: cover;
