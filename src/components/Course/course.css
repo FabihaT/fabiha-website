@@ -52,19 +52,23 @@
 }
 .content-tabs {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
     flex-direction: column; 
     width: 90%;
     padding: 20px;
     background: rgb(50,50,50);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.content-tabs p {
+    margin: 0.5rem 0;
+    color: #eaeaea;
+}
 .info {
     display: none; /* initially hidden */
-    max-width: 80rem; /* Maximum width, adjust as needed */
-    margin: auto; /* Center within .content-tabs */
+    max-width: 80rem; 
+    /* margin: auto; */
     animation: fadeIn 0.3s ease-in-out;
 }
 .active-info {

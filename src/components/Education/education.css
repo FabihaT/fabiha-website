@@ -53,7 +53,7 @@
 }
 .box p {
     line-height: 1.2;
-    color: #aeaeae;
+    color: #eaeaea;
 }
 @media screen and (max-width: 768px) {
     .row {
