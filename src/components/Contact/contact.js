@@ -24,7 +24,6 @@ const Contact = () => {
             <h2 className='contactTitle'>Contact</h2>
             <span className='contactDesc'>
                 As I'm working through my undergraduate education, I would love to discuss any internship opportunities. 
-                My primary points of contact are through email or by phone at <b>(+1)403-903-5540</b>. 
                 Feel free to fill out the form and direct it to my emails below or reach out via LinkedIn!
             </span>
             <form className='contactForm'>

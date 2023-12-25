@@ -41,6 +41,15 @@ const Education = () => {
                             </p>
                         </div>
                         <div className='box'>
+                            <h4>2022 - Present</h4>
+                            <h3>Schulich UAV</h3>
+                            <p> A University of Calgary club which designs and builds Unmanned Aerial Vehicles (UAVs)
+                                for competition. I collaborated with a diverse team to create a website aligned with their
+                                mission, and crafted visually appealing and intuitive user interfaces to optimize navigation 
+                                and overall user experience. The languages utilized were JavaScript, C/C++, APIs, HTML5, CSS3, and Bootstrap. 
+                            </p>
+                        </div>
+                        <div className='box'>
                             <h4>2023</h4>
                             <h3>Hack the Change</h3>
                             <p>An annual hackathon presented by Code the Change YYC, a
